@@ -72,6 +72,12 @@ public class Vehiculo {
 		 {
 			 this.numeroRuedas = numRuedas;
 		 } 
+		 
+		 @Override
+		public String toString() {
+		
+		return " color " + color + ", " + numeroRuedas + " ruedas, cilindrada de " + cilindrada + " y potencia de " + potencia;
+		}
 }
 
 

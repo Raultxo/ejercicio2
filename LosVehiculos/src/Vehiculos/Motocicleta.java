@@ -38,6 +38,11 @@ public class Motocicleta extends Vehiculo{
 	{
 		numeroPlazas=num;
 	}
+	
+	@Override
+	public String toString() {
+		return "Motocicleta " + super.toString() + ", numero de plazas: " + numeroPlazas;
+	}
 
 
 }

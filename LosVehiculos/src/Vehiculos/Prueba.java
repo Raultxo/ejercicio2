@@ -19,8 +19,16 @@ public class Prueba extends Vehiculo  {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Motocicleta m1=new Motocicleta("azul");
-		m1.verMoto();
+		
+		//Motocicleta m1=new Motocicleta("azul");
+		//m1.verMoto();
+		
+		Camion c1 = new Camion("Negro", (byte)8, (byte)4, (short)20, (short)40);
+		System.out.println(c1.toString());
+		
+		Motocicleta m1 = new Motocicleta((byte) 2);
+		System.out.println(m1.toString());
+		
 	}
 
 }

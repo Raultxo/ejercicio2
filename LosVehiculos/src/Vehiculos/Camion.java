@@ -41,6 +41,11 @@ public class Camion extends Vehiculo {
 	{
 		this.numeroEjes = numEjes;
 	}
+	
+	@Override
+	public String toString() {
+		return "Camion " + super.toString() + ", numero de ejes: " + numeroEjes;
+	}
 
 }
 
